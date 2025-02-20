@@ -8,6 +8,6 @@ This repository contains my solutions for the problem sets and projects from the
 - `weekX` → Example code from lectures and theory 
 
 ###  About CS50  
-CS50 is Harvard's introductory computer science course, covering C, Python, SQL, data structures, web development, and more.  
+CS50 is Harvard's introductory computer science course, covering C programming, algorithms, data structures, Python, SQL, and web development.  
 
 ---
