@@ -1,0 +1,30 @@
+sort1 uses: Bubble sort
+
+How do you know?: It's the program that takes the least amount of time (between sort1 and sort2) to process a big albeit sorted dataset.
+That is to say that in the lower bounds, this seems to be the program with the least amount of iterations between the two, so it is a good candidate to being the Bubble Sort method.
+In simpler words, executing the run command using the sorted50000.txt dataset, sort1 was the most efficient when compared to sort 3.
+
+real    0m1.038s - sorted50000
+real    0m6.201s - random50000
+
+sort2 uses: Merge sort
+
+How do you know?: It is the program that takes the least amount of time to sort through the largest dataset of numbers.
+That is to say that in the upper bounds, this seems to be the program with the least amount of iterations therefore it can only be using the Merge Sort.
+In simpler words, executing the run command using the random50000.txt dataset, sort2 was the most efficient program to organize the data.
+
+real    0m0.789s - sorted50000
+real    0m1.035s - random50000
+
+sort3 uses: Selection sort
+
+How do you know?: Finally, comparing to the other sorting programs, sort3 is neither efficient on the lower bounds nor the upper bounds, aligning thus towards the selection sorting method.
+
+real    0m2.973s - sorted50000
+real    0m2.705s - random50000
+
+
+                   upper bounds        lower bounds
+selection             n2                  n2
+bubble                n2                  n
+merge (recursion)     n*log(n)            n*log(n)
